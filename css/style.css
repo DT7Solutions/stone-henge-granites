@@ -4433,7 +4433,7 @@ Service Box
 	max-width: 450px;
 	transform: rotate(10deg) translateX(30px);
 	transition: all 0.5s ease;
-	top: 60px;
+	top: 140px;
 	margin-right: 180px;
 	opacity: 0;
 }
@@ -6797,6 +6797,7 @@ Custom Css
 	right: 0;
 	width: 64%;
 }
+
 
 .pq-about-us-padding {
 	padding: 30px 15px 0 60px;
