@@ -2942,6 +2942,10 @@ Footer
 	margin-bottom: 0;
 }
 
+.footer-links {
+	display: flex;
+	gap: 7.5%;
+}
 
 footer#pq-footer .pq-footer-style-1 {
 	padding-top: 90px;
@@ -3012,7 +3016,7 @@ footer#pq-footer .pq-copyright-footer .pq-copyright a {
 }
 
 footer#pq-footer .pq-copyright-footer .pq-copyright a:hover {
-	color: var(--white-color);
+	color: var(--primary-color);
 	text-decoration: underline;
 }
 
@@ -3139,8 +3143,7 @@ footer#pq-footer .widget ul.pq-contact li a:before {
 
 footer#pq-footer .widget ul.pq-contact li i {
 	margin-right: 15px;
-	color: var(--primary-color);
-	display: none;
+	color: var(--white-color);
 }
 
 footer#pq-footer .widget select {
@@ -3259,7 +3262,7 @@ Sidebar Menu
 }
 
 .pq-sidebar {
-	width: 410px;
+	max-width: 410px;
 	background: var(--white-color);
 	opacity: 0;
 	display: block;
@@ -3328,7 +3331,7 @@ Sidebar Menu
 
 /*===========*/
 .pq-sidebar-contact {
-	margin-top: 30px;
+	margin-top: 2.5%;
 	display: inline-block;
 	width: 100%;
 }
