@@ -714,10 +714,16 @@ Blog
 }
 
 .pq-blog-post .pq-blog-contain {
-	padding: 30px;
+	min-height: 250px;
+	padding: 2.5%;
 	display: inline-block;
 	position: relative;
 	width: 100%;
+}
+
+.pq-blog-post .pq-blog-contain .pq-button.pq-button-link {
+	position: absolute;
+	bottom: 7.5%;
 }
 
 .pq-blog-post .pq-blog-contain p:last-child {
@@ -4379,7 +4385,7 @@ Service Box
 
 .pq-service-box.pq-style-3:hover .pq-service-img img {
 	-webkit-transform: scale(1);
-	transform: scale(1.2);
+	transform: scale(1.05);
 	-webkit-transition: 0.5s ease-in-out;
 	transition: 0.5s ease-in-out;
 }
@@ -7076,8 +7082,5 @@ Custom Css
 }
 
 .pq-service-box .pq-service-img{
-
-padding-top: 50px !important;
-	
-
+	padding-top: 10% !important;
 }

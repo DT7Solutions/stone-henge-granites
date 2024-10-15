@@ -90,3 +90,9 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-wood:before {
     content: "\f118";
 }
+.icon-50:before {
+    content: "\e931";
+  }
+  .icon-51:before {
+    content: "\e932";
+  }
