@@ -418,8 +418,8 @@ Back to Top
 ++++++++++++++++++++++++++++++++++++++++*/
 #back-to-top .top {
 	position: fixed;
-	bottom: 30px;
-	right: 30px;
+	bottom: 2.5%;
+	right: 2.5%;
 	margin: 0px;
 	color: var(--white-color);
 	background: var(--primary-color);
@@ -714,7 +714,7 @@ Blog
 }
 
 .pq-blog-post .pq-blog-contain {
-	min-height: 250px;
+	min-height: 275px;
 	padding: 2.5%;
 	display: inline-block;
 	position: relative;
@@ -3225,9 +3225,10 @@ Section Title
 }
 
 .pq-section-title.pq-style-1 .pq-section-description {
+	text-align: justify;
 	z-index: 9;
 	position: relative;
-	margin: 15px 0 0;
+	margin: 15px 0;
 }
 
 /*================================================
@@ -5075,7 +5076,7 @@ Portfolio
 	left: 20px;
 	right: 20px;
 	opacity: 0;
-	padding: 20px;
+	padding: 20px 0px;
 	background: var(--white-color);
 	color: var(--primary-color);
 	display: inline-flex;
@@ -5868,9 +5869,9 @@ Counter
 .pq-counter.pq-counter-style-2 {
 	display: flex;
 	position: relative;
-	padding-bottom: 60px;
+	padding-bottom: 5%;
 	border-bottom: 1px solid #0000001a;
-	margin-bottom: 60px;
+	margin-bottom: 5%;
 }
 
 .pq-counter-style-2 .pq-counter-info {

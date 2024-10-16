@@ -292,23 +292,23 @@ Design and Developed by: Peacefulqode
 	}
 
     .pq-image1{
-        width: 100%;
+        width: 75%;
     }
 
     .pq-image2{
         width: 50%;
-        bottom: 0;
+        bottom: -10%;
         right: 0;
     }
 
 	.pq-image3{
-		width: 100%;
+		width: 80%;
 	}
 
 	.pq-image4{
 		width: 50%;
 		right: 0;
-		bottom: 0;
+		bottom: -10%;
 	}
 
     .pq-about-us-padding{
@@ -1198,6 +1198,7 @@ Design and Developed by: Peacefulqode
 
 	.pq-blog-post .pq-blog-contain{
 		padding: 30px 15px;
+		min-height: 300px;
 	}
 
 	.pq-service-box.pq-style-4 .pq-service-img img{
