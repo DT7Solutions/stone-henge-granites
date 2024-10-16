@@ -360,7 +360,7 @@ select.form-control:focus {
 }
 
 section {
-	padding: 130px 0;
+	padding: 5% 0;
 	position: relative;
 }
 
@@ -1003,16 +1003,16 @@ Blog Single Post
 }
 
 .pq-single-post-navigation .pq-single-post-nav.pq-prev .pq-single-post-nav-image-holder {
-	margin-right: 30px;
+	margin-right: 2.5%;
 }
 
 .pq-single-post-navigation .pq-single-post-nav.pq-next .pq-single-post-nav-image-holder {
-	margin-left: 30px;
+	margin-left: 2.5%;
 }
 
 .pq-single-post-navigation .pq-single-post-nav .pq-single-post-nav-image-holder img {
-	height: 120px;
-	max-width: 120px;
+	height: 75px;
+	max-width: 100px;
 }
 
 .pq-single-post-navigation .pq-single-post-nav.pq-next .pq-single-post-nav-content {
@@ -3423,7 +3423,7 @@ Breadcrumb
 	background-image: url(../images/Breadcrumb/aboutpage-banner.png);
 }
 .bg-products {
-	background-image: url(../images/Breadcrumb/productspage-banner.png);
+	background-image: url(../images/Breadcrumb/productspage-banner.webp);
 }
 .bg-sgl {
 	background-image: url(../images/Breadcrumb/steelgreylight-product-banner.webp);
