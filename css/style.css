@@ -3417,7 +3417,32 @@ Breadcrumb
 }
 
 .pq-breadcrumb {
-	background-image: url(../images/Breadcrumb/1.jpg);
+	background-image: url(../images/breadcrumb/1.jpg);
+}
+
+.bg-about {
+	background-image: url(../images/breadcrumb/aboutpage-banner.png);
+}
+.bg-products {
+	background-image: url(../images/breadcrumb/productspage-banner.png);
+}
+.bg-sgl {
+	background-image: url(../images/breadcrumb/steelgreylight-product-banner.webp);
+}
+.bg-sgd {
+	background-image: url(../images/breadcrumb/steelgreydark-product-banner.webp);
+}
+.bg-bp {
+	background-image: url(../images/breadcrumb/black-peral-product-banner.webp);
+}
+.bg-mr {
+	background-image: url(../images/breadcrumb/maple-red-product-banner.webp);
+}
+.bg-tb {
+	background-image: url(../images/breadcrumb/tan-brown-product-banner.webp);
+}
+.bg-galaxy {
+	background-image: url(../images/breadcrumb/galaxy-product-banner.webp);
 }
 
 .pq-breadcrumb:before {
