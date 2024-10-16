@@ -3419,7 +3419,6 @@ Breadcrumb
 .pq-breadcrumb {
 	background-image: url(../images/Breadcrumb/1.jpg);
 }
-
 .bg-about {
 	background-image: url(../images/Breadcrumb/aboutpage-banner.png);
 }
@@ -3444,6 +3443,15 @@ Breadcrumb
 .bg-galaxy {
 	background-image: url(../images/Breadcrumb/galaxy-product-banner.webp);
 }
+.bg-blogs {
+	background-image: url(../images/Breadcrumb/blogspage-banner.webp);
+}
+.bg-blog-details {
+	background-image: url(../images/Breadcrumb/blogs-details-page-banner.webp);
+}
+.bg-contacts {
+	background-image: url(../images/Breadcrumb/contactspage-banner.webp);
+}
 
 .pq-breadcrumb:before {
 	content: '';
@@ -3466,8 +3474,8 @@ Breadcrumb
 }
 
 .pq-breadcrumb .pq-breadcrumb-title h1 {
-	font-size: 56px;
-	line-height: 64px;
+	font-size: 46px;
+	line-height: 54px;
 	margin-bottom: 15px;
 	text-align: center;
 	color: var(--white-color);
