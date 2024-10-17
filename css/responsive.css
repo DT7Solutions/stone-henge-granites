@@ -1193,7 +1193,6 @@ Design and Developed by: Peacefulqode
 	.pq-pagination .page-numbers li .next.page-numbers,
 	.pq-pagination .page-numbers li .prev.page-numbers {
 		width: auto;
-		display: none;
 	}
 
 	.pq-blog-post .pq-blog-contain{
@@ -1214,7 +1213,7 @@ Design and Developed by: Peacefulqode
     }
 
     footer#pq-footer .pq-footer-top{
-        padding: 60px 0 0;
+        padding: 30px 0 0;
     }
 
 	.pq-mb-200{
@@ -1367,7 +1366,8 @@ Design and Developed by: Peacefulqode
 	}
 
 	.pq-breadcrumb-container .breadcrumb li {
-		padding: 10px 12px;
+		font-size: 12px;
+		padding: 8px 10px;
 	}
 
 	.pq-breadcrumb-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {

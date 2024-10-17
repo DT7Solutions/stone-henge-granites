@@ -653,6 +653,10 @@ Button Core
 Blog
 ++++++++++++++++++++++++++++++++++++++++*/
 
+.blog-single P {
+	text-align: justify;
+}
+
 .owl-carousel .pq-blog-post {
 	background-color: transparent;
 }
@@ -753,8 +757,8 @@ Blog
 
 .pq-blog-post .pq-post-category {
 	position: absolute;
-	top: 30px;
-	left: 30px;
+	top: 2.5%;
+	left: 2.5%;
 }
 
 .pq-blog-post .pq-post-category a {
@@ -2954,7 +2958,7 @@ Footer
 }
 
 footer#pq-footer .pq-footer-style-1 {
-	padding-top: 90px;
+	padding-top: 5%;
 }
 
 footer#pq-footer {
@@ -3122,6 +3126,9 @@ footer#pq-footer .widget ul li {
 
 footer#pq-footer .widget ul li:last-child {
 	margin-bottom: 0;
+}
+footer#pq-footer .widget ul li:last-child a {
+	text-transform: lowercase !important;
 }
 
 footer#pq-footer .widget ul#menu-navigate-menu li a {
@@ -4021,8 +4028,8 @@ Fancy Box
 
 .pq-fancy-box.pq-style-1 {
 	background: var(--white-color);
-	padding: 60px 45px;
-	padding-bottom: 45px;
+	padding: 10% 7.5%;
+	padding-bottom: 2.5%;
 	position: relative;
 }
 
@@ -4277,6 +4284,10 @@ Fancy Box
 /*================================================
 Service Box
 ================================================*/
+
+.all-services p {
+	text-align: justify;
+}
 
 .pq-service-box.pq-style-1 .pq-service-media {
 	position: relative;
@@ -6878,7 +6889,7 @@ Custom Css
 }
 
 .pq-contact-img {
-	margin-left: -600px;
+	margin-left: -50%;
 }
 
 .pq-contact-form .pq-button {
@@ -6917,7 +6928,7 @@ Custom Css
 }
 
 .pq-single-title {
-	line-height: 1;
+	line-height: 1.25;
 	margin-bottom: 15px;
 }
 
