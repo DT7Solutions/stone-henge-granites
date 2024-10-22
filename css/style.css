@@ -3127,7 +3127,7 @@ footer#pq-footer .widget ul li {
 footer#pq-footer .widget ul li:last-child {
 	margin-bottom: 0;
 }
-footer#pq-footer .widget ul li:last-child a {
+footer#pq-footer .widget .pq-contact li:last-child a {
 	text-transform: lowercase !important;
 }
 
