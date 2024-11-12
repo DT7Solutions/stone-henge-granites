@@ -272,7 +272,7 @@ input.form-control {
 	-ms-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 
@@ -313,7 +313,7 @@ textarea {
 	-o-transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
 	height: 100px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 /*+++++++++++++ Select +++++++++++++++*/
@@ -344,7 +344,7 @@ select.form-control {
 	background-repeat: no-repeat;
 	background-position: right 16px bottom 50%;
 	background-size: 20px 20px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 select:focus,
@@ -7032,7 +7032,7 @@ Custom Css
 }
 
 .pq-testimonial-slider-padding {
-	padding: 130px 90px 110px 15px;
+	padding: 150px 90px 125px 15px;
 }
 
 .pq-form-box {

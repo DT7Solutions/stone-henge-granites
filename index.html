@@ -34,6 +34,15 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Responsive -->
     <link rel="stylesheet" href="css/responsive.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "nLmhlO7Exi4VFGotj",
+            });
+        })();
+    </script>
 </head>
 
 <body>
@@ -780,7 +789,7 @@
                 </div>
                 <div class="col-lg-6 wow animated fadeInRight pq-form-position">
                     <div class="pq-form-box">        
-                        <div class="pq-section-title pq-style-1 pq-mb-30">
+                        <div class="pq-section-title pq-style-1 pq-mb-0">
                             <span class="pq-section-sub-title">Visit Us</span>
                             <h5 class="pq-section-main-title">Get Your Quote</h5>
                             <p class="pq-section-description">Complete the form to schedule your visit and explore our offerings.</p>
@@ -793,9 +802,15 @@
                                 <div class="col-md-6">
                                     <input type="text" name="last-name" placeholder="Last Name">
                                 </div>
+                                <div class="col-md-6">
+                                    <input type="tel" name="phone" placeholder="Enter Your Phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="email" placeholder="Enter Your Email">
+                                </div>
                                 <div class="col-lg-12">
                                     <select>
-                                        <option selected>Choose Service</option>
+                                        <option value="" disabled selected>Choose Your Service</option>
                                         <option value="1">Steel Grey Light</option>
                                         <option value="2">Steel Grey Dark</option>
                                         <option value="3">Black Pearl</option>
@@ -808,14 +823,18 @@
                                     <textarea name="your-message" cols="40" rows="10" placeholder="Write Your Message"></textarea>
                                 </div>
                                 <div class="col-lg-12">
-                                    <a class="pq-button" href="#">
+                                    <button type="submit" class="pq-button">
                                         <div class="pq-button-block">
                                             <span class="pq-button-text me-0">SUBMIT REQUEST</span>
                                         </div>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
+                            <div class="loading" style="display: none;">Loading...</div>
+                            <div class="error-message" style="display: none; color: red;"></div>
+                            <div class="sent-message" style="display: none; color: green;">Your message has been sent successfully!</div>
                         </form>
+                        
                     </div>
                 </div>
             </div>
@@ -1352,6 +1371,7 @@
     <script src="js/load-more.js"></script>
     <!-- Custom -->
     <script src="js/custom.js"></script>
+    <script src="js/validate.js"></script>
 </body>
 
 <script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'sg2plmcpnl492384'},{'dcenter':'sg2'},{'cp_id':'9858662'},{'cp_cache':''},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='../../../../img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'></script>
