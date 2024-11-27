@@ -6514,8 +6514,8 @@ FAQ
 }
 
 .pq-accordion-block.pq-style-3 .pq-accordion-block .pq-accordion-box {
-	margin-bottom: 24px;
-	padding-bottom: 24px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
 	position: relative;
 	border-bottom: 1px solid rgba(48, 55, 63, 0.2);
 }
@@ -6553,7 +6553,7 @@ FAQ
 }
 
 .pq-accordion-block.pq-style-3 .pq-accordion-block .pq-accordion-box .pq-accordion-details {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .pq-accordion-block.pq-style-3 .pq-accordion-block .pq-accordion-box .pq-accordion-details p {
